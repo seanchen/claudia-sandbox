@@ -1,0 +1,27 @@
+{
+  "name": "claudia-sandbox",
+  "version": "1.0.0",
+  "description": "sandbox for CLAUDIA.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanchen/claudia-sandbox.git"
+  },
+  "keywords": [
+    "lambda",
+    "serverless",
+    "microservice"
+  ],
+  "author": "Sean Chen <sean.chen@leocorn.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/seanchen/claudia-sandbox/issues"
+  },
+  "homepage": "https://github.com/seanchen/claudia-sandbox#readme",
+  "devDependencies": {
+    "claudia": "^5.12.0"
+  }
+}
