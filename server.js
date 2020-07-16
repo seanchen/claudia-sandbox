@@ -12,4 +12,4 @@ api.get('/hello', function() {
 api.get('/superb', function(request) {
 
     return request.queryString.name + ' is ' + superb();
-});
+}, {success: { contentType: 'text/html' }});
