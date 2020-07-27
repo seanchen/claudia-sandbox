@@ -11,7 +11,7 @@ api.get('/superb', function(request) {
 
 api.get('/hello', function() {
 
-    return '<h1>Hello Claudia.js</h1>';
+    return '<h1>Hello Claudia.js! This is the latest version</h1>';
 
 }, {success: { contentType: 'text/html'}});
 
